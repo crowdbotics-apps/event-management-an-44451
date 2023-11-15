@@ -1,6 +1,6 @@
 import axios from "axios"
 const eventmanagementanAPI = axios.create({
-  baseURL: "https://event-management-an-44451.botics.co",
+  baseURL: "https://event-management-te-44451.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_docs_schema_retrieve(payload) {
